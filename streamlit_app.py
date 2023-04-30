@@ -118,7 +118,7 @@ def main():
         
     # Set page configuration
     st.set_page_config(
-        page_title="AI Intern🚀",
+        page_title="InternAI🚀",
         page_icon=":bar_chart:",
         layout="wide",
         initial_sidebar_state="expanded",
