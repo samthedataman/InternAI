@@ -1,0 +1,60 @@
+Question 0: What is the average age of people in our data?
+Answer 0: The average age of people in our data is 40.02.
+
+Question 1: What percentage of people have a loan?
+Answer 1: The percentage of people with a loan is 0.7.
+
+Question 2: What is the most common marital status in our data?
+Answer 2: Married
+
+Question 3: What is the most common contact method used in our data?
+Answer 3: The most common contact method used in our data is 'telephone'.
+
+Question 4: What is the most common month for contact in our data?
+Answer 4: May is the most common month for contact.
+
+Question 5: What is the most common day of the week for contact in our data?
+Answer 5: The most common day of the week for contact in our data is Mon.
+
+Question 6: What is the average duration of contact in our data?
+Answer 6: The average duration of contact in our data is 261.17.
+
+Question 7: What is the most common outcome of previous contact attempts?
+Answer 7: The most common outcome of previous contact attempts is 'nonexistent'.
+
+Question 8: What is the average number of contacts per campaign?
+Answer 8: The average number of contacts per campaign is 'contact'.
+
+Question 9: What is the average number of days between contacts?
+Answer 9: The average number of days between contacts is 999.
+
+Question 0: What was the total number of impressions across the four ads?
+Answer 0: 213434828
+
+Question 1: What was the total number of clicks across the four ads?
+Answer 1: 38165
+
+Question 2: What was the total amount spent across the four ads?
+Answer 2: 58705.229958205004
+
+Question 3: What was the total number of total conversions across the four ads?
+Answer 3: The total number of total conversions across the four ads was 3264.
+
+Question 4: What was the total number of approved conversions across the four ads?
+Answer 4: 1079
+
+Question 5: What was the age breakdown across the four ads?
+Answer 5: 30-34: 426, 45-49: 259, 35-39: 248, 40-44: 210
+
+Question 6: What was the gender breakdown across the four ads?
+Answer 6: Across the four ads, there were 1143 gender breakdowns, with all of them being either male or female.
+
+Question 7: What was the interest breakdown across the four ads?
+Answer 7: The interest breakdown across the four ads was 15, 16, 20, and 28.
+
+Question 8: What was the ad_id for the ad targeting age 40-44?
+Answer 8: 709614, 709756, 709761, 709899, 709901, etc.
+
+Question 9: What was the fb_campaign_id for the ad targeting age 40-44?
+Answer 9: 104061
+

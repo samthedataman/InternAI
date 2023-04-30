@@ -1,0 +1,45 @@
+{
+    "💼 Financial Analyst": [
+        "📋 Financial Analysis",
+        "📊 Financial Forecasting",
+        "📉 Variance Analysis",
+        "💰 Profitability Analysis",
+        "📄 Financial Statement Analysis",
+        "💹 Budgeting and Planning"
+    ],
+    "📊 Data Analyst": [
+        "🧹 Data Cleaning",
+        "🔍 Exploratory Data Analysis",
+        "📊 Data Visualization",
+        "🤖 Predictive Modeling",
+        "📰 Data Reporting"
+    ],
+    "📈 Business Analyst": [
+        "💪 SWOT Analysis",
+        "ç Process Mapping",
+        "📋 Requirements Gathering",
+        "🏆 Benchmarking",
+        "🔍 Gap Analysis"
+    ],
+    "🎯 Marketing Analyst": [
+        "🎯 Market Segmentation",
+        "🔍 Competitive Analysis",
+        "🚀 Campaign Performance Analysis",
+        "💰 Customer Lifetime Value Analysis",
+        "📦 Product Performance Analysis"
+    ],
+    "⚙️ Operations Analyst": [
+        "📦 Inventory Management Analysis",
+        "🔧 Process Improvement",
+        "🚚 Supply Chain Analysis",
+        "👥 Workforce Management",
+        "📈 Capacity Planning"
+    ],
+    "💰 Sales Analyst": [
+        "📈 Sales Forecasting",
+        "💲 Pricing Analysis",
+        "🛍️ Sales Channel Analysis",
+        "🏆 Sales Performance Analysis",
+        "💓 Customer Retention Analysis"
+    ]
+}

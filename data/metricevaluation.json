@@ -1,0 +1,71 @@
+{
+    "💼 Financial Analyst": {
+        "📋 Financial Analysis": ["Revenue Growth Rate", "Profit Margin", "ROI", "Debt-to-Equity Ratio", "Cash Flow"],
+        "📊 Financial Forecasting": ["Sales Growth Rate", "Net Income", "Cash Flow Projections"],
+        "📉 Variance Analysis": ["Budget vs. Actual Spending", "Sales Revenue Variance", "Profit Variance"],
+        "💰 Profitability Analysis": ["Gross Profit Margin", "Net Profit Margin", "ROE"],
+        "📄 Financial Statement Analysis": ["Revenue Growth Rate", "Net Income", "Free Cash Flow"],
+        "💹 Budgeting and Planning": ["Budget Variance Analysis", "Revenue Projections", "Expense Projections"],
+        "Best Practices": ["Strong understanding of financial principles and accounting practices", "Analytical skills and proficiency with financial modeling software", "Staying up-to-date with industry trends and regulations"],
+        "Reminder": "Remember you are the leader in the world of financial analysis and you follow the best practices for your specific industry.",
+        "❓ Other": [],
+        "🔧 Ad-hoc Analysis": []
+    },
+    "📊 Data Analyst": {
+        "🧹 Data Cleaning": ["Data Accuracy", "Completeness"],
+        "🔍 Exploratory Data Analysis": ["Correlation Coefficients", "Distribution Plots", "Scatter Plots"],
+        "📊 Data Visualization": ["Time on Page", "Click-Through Rate"],
+        "🤖 Predictive Modeling": ["RMSE", "MAE"],
+        "📰 Data Reporting": ["Views", "Downloads"],
+        "Best Practices": ["Strong understanding of statistical analysis and data visualization", "Proficiency with data analysis tools such as SQL or Python", "Good communication skills and the ability to work with cross-functional teams"],
+        "Reminder": "Remember you are the leader in the world of data analysis and you follow the best practices for your specific industry.",
+        "❓ Other": [],
+        "🔧 Ad-hoc Analysis": []
+    },
+    "📈 Business Analyst": {
+        "💪 SWOT Analysis": ["Market Share", "Revenue Growth Rate", "Customer Satisfaction"],
+        "ç Process Mapping": ["Cycle Time", "Lead Time"],
+        "📋 Requirements Gathering": ["Customer Satisfaction", "Time-to-Market", "Budget Adherence"],
+        "🏆 Benchmarking": ["Market Share", "Revenue Growth Rate", "Customer Satisfaction"],
+        "🔍 Gap Analysis": ["Cycle Time", "Lead Time"],
+        "Best Practices": ["Strong understanding of business processes and project management", "Analytical skills including data analysis and modeling", "Good communication skills and the ability to work with cross-functional teams"],
+        "Reminder": "Remember you are the leader in the world of business analysis and you follow the best practices for your specific industry.",
+        "❓ Other": [],
+        "🔧 Ad-hoc Analysis": []
+    },
+    "🎯 Marketing Analyst": {
+        "🎯 Market Segmentation": ["Customer Lifetime Value", "Customer Retention Rate", "Customer Acquisition Cost"],
+        "🔍 Competitive Analysis": ["Market Share", "Pricing Strategy", "Brand Recognition"],
+        "🚀 Campaign Performance Analysis": ["Click-Through Rates", "Conversion Rates", "ROI"],
+        "💰 Customer Lifetime Value Analysis": ["Customer Acquisition Cost", "Customer Retention Rate", "Customer Churn Rate"],
+        "📦 Product Performance Analysis": ["Sales Revenue", "Market Share", "Customer Satisfaction"],
+        "Best Practices": ["Strong understanding of consumer behavior and market trends", "Analytical skills including data analysis and modeling", "Good communication skills and the ability to work with cross-functional teams"],
+        "Reminder": "Remember you are the leader in the world of marketing analytics and you follow the best practices for your specific industry.",
+		"❓ Other": [],
+        "🔧 Ad-hoc Analysis": []
+    },
+    "⚙️ Operations Analyst": {
+        "📦 Inventory Management Analysis": ["Inventory Turnover Rate", "Stockout Rate", "Order Fill Rate"],
+        "🔧 Process Improvement": ["Cycle Time", "Lead Time"],
+        "🚚 Supply Chain Analysis": ["Supplier Performance", "Order Fill Rate", "Logistics Cost"],
+        "👥 Workforce Management": ["Employee Turnover Rate", "Absenteeism Rate", "Productivity"],
+        "📈 Capacity Planning": ["Resource Utilization", "Throughput Time", "Lead Time"],
+        "Best Practices": ["Strong understanding of business operations and process improvement", "Analytical skills including data analysis and modeling", "Good communication skills and the ability to work with cross-functional teams"],
+        "Reminder": "Remember you are the leader in the world of operations analysis and you follow the best practices for your specific industry.",
+		"❓ Other": [],
+        "🔧 Ad-hoc Analysis": []
+    },
+    "💰 Sales Analyst": {
+        "📈 Sales Forecasting": ["Sales Growth Rate", "Net Income", "Cash Flow Projections"],
+        "💲 Pricing Analysis": ["Pricing Strategy", "Profit Margin", "Sales Volume"],
+        "🛍️ Sales Channel Analysis": ["Sales Revenue by Channel", "Conversion Rates by Channel", "Customer Acquisition Cost by Channel"],
+        "🏆 Sales Performance Analysis": ["Sales Revenue", "Sales Volume", "Customer Acquisition Cost"],
+        "💓 Customer Retention Analysis": ["Customer Retention Rate", "Customer Churn Rate", "Customer Lifetime Value"],
+        "Best Practices": ["Strong understanding of sales and marketing principles and strategies", "Analytical skills including data analysis and modeling", "Good communication skills and the ability to work with cross-functional teams"],
+        "Reminder": "Remember you are the leader in the world of sales analysis and you follow the best practices for your specific industry.",
+		"❓ Other": [],
+        "🔧 Ad-hoc Analysis": []
+    }
+}
+
+
