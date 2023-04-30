@@ -232,8 +232,7 @@ def main():
 
     api_key = st.sidebar.text_input("Enter your GPT API key", type="password")
 
-    model_version = st.selectbox("Choose the Model Version", ["gpt-3.5-turbo","Davincci"])
-
+    model_version = st.sidebar.selectbox("Choose the Model Version", ["gpt-3.5-turbo","Davincci"])
 
     temperature = st.sidebar.slider("Choose the style you want the AI to write in: 0 is most rational, 1 is least", 0.0, 1.0, step=0.1)
     
