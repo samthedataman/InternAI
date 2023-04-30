@@ -154,7 +154,7 @@ def main():
         assignment_types = json.load(file)
 
     # Load JSON data from the neighboring directory
-    with open("/Users/samsavage/AnalystAI/data/metricevaluation.json", "r") as file:
+    with open("data/metricevaluation.json", "r") as file:
         instruction_data = json.load(file)
 
     # Update session state if role changes
@@ -299,29 +299,6 @@ def main():
                                 st.markdown(f"<div class='slack-container'><div class='slack-question'>Question {i}: {k}</div><div class='slack-answer'>{agent.run(k)}</div></div>", unsafe_allow_html=True)
                         except TypeError as e:
                             print(e)
-
-                        
-
-                # with open("user_output.txt", 'a') as output_file:
-                #     for i, (question, answer) in enumerate(zip(list_from_string, answers)):
-                #         output_file.write(f"Question {i}: {question}\n")
-                #         output_file.write(f"Answer {i}: {answer}\n\n")
-
-                # st.markdown(output_file, "user_output.txt", unsafe_allow_html=True)
-
-    # col1, col2, col3 = st.columns(3)
-
-    # # Add a button to the first column for generating a docx report
-    # with col1:
-    #     st.button("Generate DOCX")
-
-    # # Add a button to the second column for generating a PowerPoint pptx
-    # with col2:
-    #     st.button("Generate PPTX")
-
-    # # Add a button to the third column for generating an Excel/CSV file
-    # with col3:
-    #     st.button("Generate CSV")
 
 
 main()
