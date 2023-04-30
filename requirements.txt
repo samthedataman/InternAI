@@ -9,3 +9,4 @@ streamlit==1.22.0
 openai
 tiktoken
 chromadb
+tabulate
