@@ -98,7 +98,7 @@ main()
 
 #             AND reminder that you are {reminder}
 
-#               OUPUT:
+#             OUPUT:
             
 #             Please output 5 QUESTIONS to help you solve
     

@@ -38,8 +38,6 @@ def apply_custom_css():
         """,
         unsafe_allow_html=True,
     )
-
-
 def apply_custom_css2():
     st.markdown(
         """
@@ -113,7 +111,7 @@ def GetGeneratedQuestions(
 def main():
     # Set page configuration
     st.set_page_config(
-        page_title="InternAI🚀",
+        page_title="AI Intern🚀",
         page_icon=":bar_chart:",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -140,13 +138,12 @@ def main():
 
     role = st.sidebar.selectbox(
         "Your Role",
-        [
-            "🎯 Marketing Analyst",
+        [   "🎯 Marketing Analyst",
             "⚙️ Operations Analyst",
             "💰 Sales Analyst",
             "💼 Financial Analyst",
             "📊 Data Analyst",
-            "📈 Business Analyst",
+            "📈 Business Analyst"
         ],
         on_change=session_state.clear,
     )
@@ -196,8 +193,7 @@ def main():
 
     customer_role = st.sidebar.selectbox(
         "Your Customer",
-        [
-            "📈 Data Analytics Manager",
+        [   "📈 Data Analytics Manager",
             "🔬 Research Manager",
             "🖥️ IT Manager",
             "🔒 Security Manager",
@@ -218,7 +214,7 @@ def main():
             "👨‍🔬 CRO",
             "👩‍⚖️ Legal Counsel",
             "💼 Controller",
-            "👥 HR Manager",
+            "👥 HR Manager"
         ],
     )
 
@@ -233,28 +229,24 @@ def main():
     if assignment_type != session_state.assignment_type:
         session_state.assignment_type = assignment_type
 
-    model_version = st.sidebar.selectbox(
-        "Choose the Model Version", ["gpt-3.5-turbo", "Davincci"]
-    )
-
     api_key = st.sidebar.text_input("Enter your GPT API key", type="password")
 
-    temperature = st.sidebar.slider(
-        "Choose the style you want the AI to write in: 0 is most rational, 1 is least",
-        0.0,
-        1.0,
-        step=0.1,
-    )
+    model_version = st.selectbox("Choose the Model Version", ["gpt-3.5-turbo","Davincci"])
 
-    os.environ["OPENAI_API_KEY"] = api_key.lstrip('"').rstrip('"')
 
-    st.markdown(
-        f"### Automating your {session_state.assignment_type} work for your {customer_role}"
+    temperature = st.sidebar.slider("Choose the style you want the AI to write in: 0 is most rational, 1 is least", 0.0, 1.0, step=0.1)
+    
+    os.environ["OPENAI_API_KEY"] = api_key.lstrip("\"").rstrip("\"")
+
+
+
+    st.subheader(
+        f" Automating your {session_state.assignment_type} work for your {customer_role}"
     )
     col1, col2 = st.columns(2)
 
     st.markdown(
-        "<h4 style='font-weight: italic; color: gold;'>In a few sentences, describe in detail what you want to accomplish with this analysis:</h4>",
+        "<h4 style='font-weight: bold;'>In a few sentences, describe in detail what you want to accomplish with this analysis</h4>",
         unsafe_allow_html=True,
     )
     problem_statement = st.text_area("", key="problem_statement")
@@ -287,32 +279,27 @@ def main():
 
                 agent = create_csv_agent(OpenAI(temperature=temperature), f.name)
 
-                gpt4_agent = create_csv_agent(
-                    OpenAI(temperature=temperature, model_name="gpt-3.5-turbo"), f.name
-                )
-
+                gpt4_agent  = create_csv_agent(OpenAI(temperature=temperature, model_name='gpt-3.5-turbo'),f.name)
+                
                 if api_key:
+
                     if model_version == "gpt-3.5-turbo":
                         # apply_custom_css()
                         apply_custom_css2()
                         try:
                             for i, k in enumerate(list_from_string):
-                                st.markdown(
-                                    f"<div class='slack-container'><div class='slack-question'>Question {i}: {k}</div><div class='slack-answer'>{gpt4_agent.run(k)}</div></div>",
-                                    unsafe_allow_html=True,
-                                )
+                                st.markdown(f"<div class='slack-container'><div class='slack-question'>Question {i}: {k}</div><div class='slack-answer'>{gpt4_agent.run(k)}</div></div>", unsafe_allow_html=True)
                         except TypeError as e:
                             print(e)
                     else:
                         apply_custom_css2()
                         try:
                             for i, k in enumerate(list_from_string):
-                                st.markdown(
-                                    f"<div class='slack-container'><div class='slack-question'>Question {i}: {k}</div><div class='slack-answer'>{agent.run(k)}</div></div>",
-                                    unsafe_allow_html=True,
-                                )
+                                st.markdown(f"<div class='slack-container'><div class='slack-question'>Question {i}: {k}</div><div class='slack-answer'>{agent.run(k)}</div></div>", unsafe_allow_html=True)
                         except TypeError as e:
                             print(e)
+
+                        
 
                 # with open("user_output.txt", 'a') as output_file:
                 #     for i, (question, answer) in enumerate(zip(list_from_string, answers)):
