@@ -109,6 +109,13 @@ def GetGeneratedQuestions(
 
 
 def main():
+
+    # Initialize session state if not already initialized
+    if not session_state.get("init"):
+        session_state.init = True
+        session_state.role = "📊 Data Analyst"
+        session_state.assignment_type = "🔍 Exploratory Data Analysis"
+        
     # Set page configuration
     st.set_page_config(
         page_title="AI Intern🚀",
@@ -129,12 +136,6 @@ def main():
     </style>
     """
     st.markdown(css, unsafe_allow_html=True)
-
-    # Initialize session state if not already initialized
-    if not session_state.get("init"):
-        session_state.init = True
-        session_state.role = "📊 Data Analyst"
-        session_state.assignment_type = "🔍 Exploratory Data Analysis"
 
     role = st.sidebar.selectbox(
         "Your Role",
