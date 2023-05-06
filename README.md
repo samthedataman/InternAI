@@ -1,6 +1,8 @@
 # InternAI 🚀 Chatbot
 
-InternAI is a chatbot designed to automate various data analysis tasks. By uploading a CSV or Excel file, users can quickly obtain a summary of the data, generate questions, and get answers to those questions.
+[Check out InternAI](https://samthedataman-internai-streamlit-app-9lxsm8.streamlit.app/)
+
+InternAI is a automatic data analysis tool designed to automate various data analysis tasks. By uploading a CSV or Excel file, users can quickly obtain a summary of the data, generate questions, and get answers to those questions.
 
 ## Features
 
@@ -11,6 +13,7 @@ InternAI is a chatbot designed to automate various data analysis tasks. By uploa
 
 ## Requirements
 
+- Paid Openai key
 - Python 3.7+
 - streamlit
 - pandas
